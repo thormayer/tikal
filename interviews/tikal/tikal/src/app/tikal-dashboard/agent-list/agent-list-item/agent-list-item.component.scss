@@ -1,0 +1,19 @@
+.item-container{
+    display: flex;
+    padding-left: 9px;
+    // border-top: 1px solid gray;
+    border-bottom: 1px solid #efefef;
+
+    .item{
+        flex: 1;
+        padding: 5px 2px; 
+        font-size: 13px;   
+        color: #918d8d;    
+        &.address{
+            flex: 4;
+        }
+        &.date{
+            flex: 2;
+        }
+    }
+}

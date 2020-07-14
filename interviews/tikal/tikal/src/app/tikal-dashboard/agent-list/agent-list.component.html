@@ -1,0 +1,31 @@
+
+<div class="container">
+    <div class="header">
+        <div class="item">
+            <div class="title">
+                Agent ID
+            </div>
+        </div>
+        <div class="item">
+            <div class="line"></div>
+            <div class="title">
+                Country
+            </div>
+        </div>
+        <div class="item address">
+            <div class="line"></div>
+            <div class="title">
+                Address
+            </div>
+        </div>
+        <div class="item date">
+            <div class="line"></div>
+            <div class="title">
+                Date
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <agent-list-item *ngFor="let item of data" [item]="item"></agent-list-item>
+    </div>
+</div>

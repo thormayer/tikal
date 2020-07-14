@@ -1,0 +1,39 @@
+.container{
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    .header{
+        padding: 10px 0;
+        background-color: #FAFAFA;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        display: flex;
+        border-bottom: 2px solid #CCCCCC;
+        .item{
+            color: #6c6a6a;
+            font-weight: 500;
+            flex: 1;
+            display: flex;
+            .line{
+                border-left: 1px solid #e3e3e3;
+                height: 20px;
+                position: relative;
+                left: -2px;
+            }
+            .title{
+                padding: 0px 10px;
+            }
+
+            &.address{
+                flex: 4;
+            }
+            &.date{
+                flex: 2;
+            }
+        }
+    }
+    .content{
+
+    }
+}
